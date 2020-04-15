@@ -1,0 +1,71 @@
+github 
+--------------
+URL :-
+ https://github.com/Raju0248/SeleniumLearningProject
+
+Github repositaryURL : 
+ -   https://github.com/Raju0248/SeleniumLearningProject.git
+
+using git command process
+
+-select the folder and right click and select the git bash here
+-use git init command 
+-intigration the localrepository with remot repository
+-git remote add origin "https://github.com/Raju0248/SeleniumLearningProject.git"  =>then enter
+-git pull origin master press enter  ----remot to local repository
+- ex-create one sample text and save in that same folder
+-git status  -> to check the files 
+-git add Test1.txt
+-git commit -m "write here your comments" and press enter
+-git status
+-if you any changes in Test1 file you need update that file again
+-if you add some more file u need to update same process
+-git add -A   ->press enter
+-git commit -a  -m "commit 3 files local repository"
+-git log -> to check the whatever we add updates
+ 
+
+STAGES :-
+------------
+1.Implementation
+2.Execution
+3.Maintanace
+
+Phase-1: implementation
+
+=>Create Maven Project
+=>Update pom.xml
+=>Create Page Objects
+=>Create Basics Test cases
+=>Add logs to test case
+=>Read common values from properties file
+=>Run test case on desired browser
+=>Add extent report
+=>Create Data Driven test case
+=>Adding new test case
+
+Phase-2:EXecution
+=>Run test cases with Maven pom.xml
+=>Run test cases through Maven CLI(command line interface)
+=>Run test cases using run.bat
+=>Run test cases using Jenkins(using bat files)
+
+Phase-3:Maintenance
+
+
+=>Creating repository in GITHUB
+=>Commit the project code in local repository
+=>Push the project code to GITHUB remote repository from local GIT repository
+
+
+Maven project:-
+----------------------
+=> in maven project we have one pom.xlm file
+=>pom.xml file is used to download all the rquired dependemcies automatically.
+
+=> all dependencies are download the maven repository
+
+Log4j
+---------
+lgo4j.jar(form pom.xml)
+log4j.properties
